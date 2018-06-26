@@ -37,3 +37,15 @@
     3. check the science / muckery page
         * navigate in browser to <ip_goes_here>:<port_goes_here>/science/
         * if this results in a depressed basic looking hello world page.  You're done (for now)
+        
+# Modifying DB models in Django 101
+[sauce](https://docs.djangoproject.com/en/2.0/intro/tutorial02/)
+
+In Essence:
+1. Change models (in models.py)
+2. `python manage.py makemigrations (app name)`
+    * inspect sql with `python manage.py sqlmigrate (app name)`
+3. Migrate with `python manage.py migrate (app name)`
+
+# Adding yourself as an admin
+`python manage.py createsuperuser`

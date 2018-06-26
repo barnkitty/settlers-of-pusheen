@@ -1,5 +1,6 @@
 # ignore the annoying workspaces thing.
 .idea/workspace.xml
+
 # ignore the virtual environment each developer will create
 v_env
 
