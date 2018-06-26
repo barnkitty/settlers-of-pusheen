@@ -1,10 +1,13 @@
 # ignore the annoying workspaces thing.
-.idea/workspaces.xml
+.idea/workspace.xml
 # ignore the virtual environment each developer will create
 v_env
 
 # ignore the cached compiled python
 *.pyc
+
+# ignore the __pycache__ folders
+*/__pycache__
 
 # ignore the science experiments / mukcing around found in the muckery directory
 # this should be used for testing / educational purposes
