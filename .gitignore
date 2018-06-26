@@ -11,4 +11,4 @@ v_env
 
 # ignore the science experiments / mukcing around found in the muckery directory
 # this should be used for testing / educational purposes
-# muckery/* # uncomment this after initial commit of muckery subdir
+muckery/* # uncomment this after initial commit of muckery subdir
