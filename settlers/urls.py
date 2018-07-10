@@ -20,9 +20,12 @@ from django.views.generic import RedirectView
 from django.conf import settings
 from django.conf.urls.static import static
 
+import os
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('game/', include('game.urls')),
     path('', RedirectView.as_view(url='/game/', permanent=True)),
     path('accounts/', include('django.contrib.auth.urls')),
+    path('science/', include ('muckery.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
